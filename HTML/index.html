@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>首頁</title>
+<meta charset="utf-8">
+<style>
+    * {
+        margin:0;
+    }
+    body{
+        background-color: #fff2c8;
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        width:300px;
+    }
+    #nav{
+        background-color: skyblue;
+    }
+    #wrapper{
+        float:left;
+        width:100%;
+    }
+    main{
+        margin-left: 180px;
+        background-color:#b8f4fc
+    }
+    #gohome{
+        position:absolute;
+        background-color: aqua;
+        right:30px;
+        bottom:-16px;
+    }
+    figure{
+        position: relative;
+        left:100px;
+    }
+    #fixed {
+        position: fixed;
+        bottom:0;
+        left:90%;
+        background-color: white;
+    }
+
+#menu{
+    background-color: white;
+}
+#menu ul{
+    padding: 0;
+}
+#menu li{
+    display: table-cell;
+    background-image: url(img/btn1.png);
+    background-size: contain;
+    background-size: none;
+    font-size: 24px;
+    width: 150px;
+    border: 1px blue dashed;
+}
+#menu ul{
+    display: table;
+    border-spacing: 5px;
+}
+#menu li a{
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration-line: none;
+}
+#menu li a:hover{
+    background-image:url(img/btn2.png);
+    background-size: contain;
+    color: brown;
+}
+
+
+
+</style>
+</head>
+<body>
+    <div id ="menu">
+        <ul>
+            <li><a href="north.html">北部景點</a></li>
+            <li><a href="central.html">中部景點</a></li>
+            <li><a href="south.html">南部景點</a></li>
+            <li><a href="east.html">東部景點</a></li>
+            <li><a href="https://9a917010.000webhostapp.com/index.html">站長介紹</a></li>
+        </ul>
+    </div>
+    <nav id="nav"><br></a></nav>
+    <div id="wrapper">
+        <main>
+            <section>
+                <section id="a">
+                    <figure>
+                        <img src="img/台灣.jpg" alt="台灣">
+                        <figcaption>台灣</figcaption>
+                    </figure>
+                </section>
+            </section>
+        </main>
+    </div>
+    <div id="fixed"><a href="Index.html">回到頁首</a></div>
+</body>
+</html>
