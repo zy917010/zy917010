@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/*視窗底色設定*/
+body{
+	background-color:#b8f4fc
+}
+
+
+#wrap{
+	width:  50%;
+	height: auto;
+	float: inline-start;
+}
+
+#abc{
+	width:  50%;
+	height: auto;
+	float: inline-end;
+
+}
+
+
+/*連結顏色設定*/
+
+a:link {color:#0033FF; text-decoration:underline;}
+a:visited {color:#821DDA; text-decoration:underline;}
+a:hover {color:#FF00FF; text-decoration:none;}
+a:active {color:#15B9B6; text-decoration:underline;}
+a:link {text-decoration:none;}
+a{
+	font-size:20px;
+}
+
+
+/*頁面標題設定*/
+
+h1 {color:rgb(255, 123, 0);
+    text-align:center;
+    font-size:55px;
+	border:#ff0000 1px dotted;
+	border-left:#d7f038 10px solid;
+	padding:5px 20px;
+	margin-bottom:0;}
+
+
+/*內容標題設定*/
+
+dt{
+	text-align:center;
+	clear: left;
+	float: none;
+	font-weight:normal;
+	font-size:30px;
+	line-height: 60px;
+	background-color: #fff2c8;
+}
+
+li {
+	text-align:center;
+	clear: left;
+	float: none;
+	font-weight:normal;
+	line-height: 30px;
+}
+p{
+	text-align:left;
+	clear: left;
+	float: none;
+	font-weight:normal;
+}
+
+
+
+/*引言區塊設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*花色、性別（共通資料）*/
+
+
+/*依性別區分顏色*/
